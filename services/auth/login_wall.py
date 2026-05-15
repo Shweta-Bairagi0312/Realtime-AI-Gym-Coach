@@ -23,10 +23,6 @@ def render_login_wall():
         st.session_state["user_id"] = user["id"]
         st.session_state["username"] = user["username"]
 
-       
-       
-
-
         st.rerun()
 
     return False
